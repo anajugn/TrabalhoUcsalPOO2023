@@ -31,5 +31,8 @@ public class Aluno {
 		Status = status;
 	}
 	
+	public String toString() {
+		return super.toString();
+	}
 
 }
