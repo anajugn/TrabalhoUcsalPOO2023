@@ -30,6 +30,9 @@ public class Aluno {
 	public void setStatus(String status) {
 		Status = status;
 	}
-	
+	public String toString() {
+		return super.toString();
+	}
+
 
 }
